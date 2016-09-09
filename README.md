@@ -1,11 +1,13 @@
 # Push-Notification-Xamarin-Forms
 
-Xamarin Forms Android GCM Notification implementation using
+* Xamarin Forms Android GCM Notification implementation using
 
-    Azure Notification Hub
-    Google Cloud Messaging Client
-    Azure Messaging
+    - Azure Notification Hub
+    - Google Cloud Messaging Client
+    - Azure Messaging
 
-TODO:
 
-* Xamarin Forms iOS APNS Notification implementation
+* Xamarin Forms iOS APNS Notification implementation using
+
+    - Azure Notification Hub
+    - Azure Messaging
