@@ -17,6 +17,17 @@ namespace PushN
         {
             // The root page of your application
             MainPage = new NavigationPage(new NewsShow());
+            MainPage = new ContentPage
+            {
+                Content = new StackLayout
+                {
+                    VerticalOptions = LayoutOptions.Start,
+                    Padding = 20,
+                    Children = {
+                        new Label { Text="Hello Xamarin Push Notification"}
+                    }
+                }
+            };
         }
 
 
